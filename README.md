@@ -22,6 +22,13 @@ Tutorial (Vietnamese): <https://youtu.be/pbwEbpOy0m8?feature=shared>
 This code is specifically designed for running on Ubuntu or WSL2. It is not intended for use on macOS or Windows systems.
 ![viXTTS Gradio Demo](assets/vixtts_gradio_ui.png)
 
+Install lib on Ubuntu
+
+```sh
+sudo apt install -y nvidia-cuda-toolkit
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
+
 ### Hardware Recommendations
 
 - At least 10GB of free disk space
